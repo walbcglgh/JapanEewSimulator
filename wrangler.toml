@@ -1,0 +1,13 @@
+[assets]
+binding = "ASSETS"
+
+[upload]
+dir = "."
+format = "modules"
+
+ignore_patterns = [
+  ".git/**",
+  ".github/**",
+  "node_modules/**",
+  ".wrangler/**"
+]
