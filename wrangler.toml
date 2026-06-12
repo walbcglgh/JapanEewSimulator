@@ -1,13 +1,7 @@
+name = "japaneewsimulator"
+compatibility_date = "2024-11-01"
+
 [assets]
-binding = "ASSETS"
+directory = "."
 
-[upload]
-dir = "."
-format = "modules"
-
-ignore_patterns = [
-  ".git/**",
-  ".github/**",
-  "node_modules/**",
-  ".wrangler/**"
-]
+ignore_patterns = ["**/.git/**", ".git/**", "node_modules/**"]
